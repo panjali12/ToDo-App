@@ -1,0 +1,59 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     background-color: rgb(221, 117, 117);
+}
+#nav-bar{
+    margin-top: 0px;
+    
+    background-color: rgb(165, 42, 81);
+    color:rgb(221, 202, 208); ;
+    padding-top: 0rem;
+   padding-bottom: 0rem;
+   font-size: 35px;
+   font-weight:900px;
+
+}
+
+.item-color{
+    font-size: 25px;
+    color: antiquewhite;
+}
+
+#main-heading{
+    text-align: center;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 200px 150px 100px ;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-top: 10px;
+    align-items: center;
+    margin-left: 500px;
+    
+}
+#todo-input , #todo-date{
+    font-size: 15px;
+    padding:  15px 5px;
+    border: none;
+
+}
+.button-todo{
+    background-color: rgb(17, 184, 64);
+    border: none;
+    border-radius: 10px;
+    color: antiquewhite;
+    padding: 15px 0px;
+    cursor: pointer;
+
+}
+.button-todo-delete{
+    background-color: rgb(190, 41, 41);
+    border: none;
+    color: aliceblue;
+    border-radius: 7px;
+    padding: 15px 0px;
+}
+#main-heading{
+    margin-bottom: 50px;
+}
